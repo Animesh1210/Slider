@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue;
+    background-color: #FFBFA9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    margin-top: 150px;
   }
   
 .top
@@ -36,6 +37,8 @@ body{
 }
 .slider{
     display: flex;
+    animation-delay: 500ms;
+    transition: all .8s ease;
     
 }
 .image{
@@ -44,10 +47,15 @@ body{
     object-fit: cover;
 }
 
-
+.bottom{
+    display: flex;
+    gap: 15px;
+}
 .button{
     width: 15px;
     height: 15px;
     border-radius: 50%;
     border: 1px solid;
+    border-color: white;
+    cursor: pointer;
 }
