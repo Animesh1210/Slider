@@ -1,6 +1,7 @@
 body{
-    background-color: #FFBFA9;
-    display: flex;
+    background-image: url(/Images/background-3147808.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     justify-content: center;
 }
