@@ -21,19 +21,33 @@ body{
 .arrow{
     height: 150px;
     cursor: pointer;
-    align-items: center;
+    
 
 }
 .left{
     transform: rotate(180deg);
 }
+
+
 .frame{
     width: 800px;
     height: 500px;
     overflow: hidden;
-
+}
+.slider{
+    display: flex;
+    
 }
 .image{
-    width: 100px;
-    height: 100px;
+    max-width:100%;
+    max-height:100%;     /*fixed now? */
+    object-fit: cover;
+}
+
+
+.button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid;
 }
